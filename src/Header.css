@@ -1,9 +1,37 @@
+*{
+    margin : 0;
+}
+
+:root{
+    --red : #d01c28;
+    --gray : #2e2e2e;
+}
+
 .Header{
     display : flex;
     justify-content: space-between;
+    margin : auto 2rem;
+    height : 5rem;
+    align-items: center;
 }
 
 .Header img{
     width : 5rem;
     height : auto;
+}
+
+.Header ul{
+    display : flex;
+    list-style: none;
+    gap : 0.8rem;
+}
+
+.Header button{
+    all : unset;
+    height : 1.8rem;
+    width : auto;
+    background: var(--red);
+    color : white;
+    font-weight: 500;
+    padding : 0.2rem 0.5rem;
 }
