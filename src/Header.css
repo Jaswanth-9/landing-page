@@ -1,0 +1,9 @@
+.Header{
+    display : flex;
+    justify-content: space-between;
+}
+
+.Header img{
+    width : 5rem;
+    height : auto;
+}
